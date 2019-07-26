@@ -1,0 +1,85 @@
+
+/* IMPORT GOOGLE FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+
+
+
+/* SCROLLER SIZES */
+
+#NewsArea, #news_window iframe 
+		{
+		height: 300px;
+		width: 100%; /* MAX WIDTH BELOW */
+		}
+
+/* NEWS FRAME AREA TOP LEVEL PAGE - WIDTH ADDS BORDER */
+
+#news_window	{
+		width: 100%;
+		max-width: 3000px;
+		min-width: 200px;
+		margin: 0px auto 10px auto;
+		border: #000000 1px solid;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+
+#news_window iframe 
+		{
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		}
+
+.news_window-title 
+		{
+		color: #fff;
+		font: normal 20px "Droid Sans", arial, sans-serif;
+		background-color: #000000;
+		text-align: center;
+		padding: 5px 5px 5px 5px;
+		border-bottom: #3cd108 2px solid;
+		}
+
+
+
+
+/* EMBEDDED NEWS PAGE BODY */
+
+#NewsArea	{ position: absolute; left: 0; top: 0px; overflow: auto; -webkit-overflow-scrolling: touch; }
+
+body.news-page 	{
+		background-color: #666666;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		}
+
+/* FONTS & PADDING */
+
+.news-text-if	{		
+		color: #fff;
+		font: normal 13px "Droid Sans", arial, sans-serif;
+		text-align: left;
+		padding: 8px 7px 0px 7px;
+		}
+
+.news-title-if {
+    color: #585858;
+    font: bold 17px "Droid Sans", arial, sans-serif;
+    text-align: left;
+    border-bottom: #666666 0px solid;
+}
+
+/* EMBEDDED NEWS PAGE LINK COLORS */
+
+.news-page a:link	{ color: #3cd108; text-decoration: none; }
+
+.news-page a:hover	{ color: #006005; text-decoration: underline; }
+
+
+
